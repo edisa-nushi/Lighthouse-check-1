@@ -1,5 +1,7 @@
 name: Lighthouse Check
-on: [pull_request]
+on:
+  schedule:
+    - cron: '10,20 14,15 * * *'
 
 jobs:
   lighthouse-check:
