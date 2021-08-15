@@ -1,7 +1,7 @@
 name: Lighthouse Check
 on:
   schedule:
-    - cron: '0 22 * * *'
+    - cron: '15,45 15,16,18,19,21 * * *'
 
 jobs:
   lighthouse-check:
